@@ -14,5 +14,7 @@ RUN apt-get update && apt-get install -y rsync \
 
 COPY 'entrypoint.sh' './spark/ec2/entrypoint.sh'
 
+RUN chmod +x ./spark/ec2/entrypoint.sh
+
 WORKDIR spark/ec2/
 ENTRYPOINT ["./entrypoint.sh"]
