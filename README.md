@@ -28,7 +28,7 @@ docker run -t -i -v /c/Users/<% PATH TO YOUR SSH KEY %>:/id_rsa -e AWS_ACCESS_KE
 
 In order to simplify the execution, you can download the
 [batch script](https://raw.githubusercontent.com/edrevo/spark-ec2-docker/master/spark-ec2.bat),
-edit it to add your AWS credentials and SSH key, and place it in your PATH.
+edit it to add your SSH key path and place it in your PATH.
 
 Once you have done that, you can start using the spark-ec2 script directly:
 
